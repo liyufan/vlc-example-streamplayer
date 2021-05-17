@@ -10,6 +10,14 @@ Use this endpoint for test:
 rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov
 ```
 
+
+Consider using the latest official compiled VLC version:
+
+https://mvnrepository.com/artifact/org.videolan.android/libvlc-all
+
+https://code.videolan.org/videolan/vlc-android#build-application
+
+
 ## Gradle
 Compile my wrapper:
 
