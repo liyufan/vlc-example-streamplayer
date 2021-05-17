@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">PedroVLC</string>
+    <string name="app_name">Intelligent Lab</string>
     <string name="start_player">Start player</string>
     <string name="stop_player">Stop player</string>
-  <string name="yourendpoint">yourendpoint</string>
+    <string name="yourendpoint">yourendpoint</string>
+    <string name="select_display_time">Display timing on screen</string>
+    <string name="select_push_notification">Push notification</string>
+    <string name="choose_display_style_dialog_title">Please select one</string>
+
 </resources>

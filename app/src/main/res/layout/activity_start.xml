@@ -1,0 +1,58 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".StartActivity">-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="welcome to the app developed by -"
+        android:textColor="#00ae00"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="type the rtsp source here"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to Start" />
+
+
+    <Button
+        android:id="@+id/about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="about this app" />
+
+    <Button
+        android:id="@+id/ExitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to Exit" />
+
+    <ImageView
+        android:id="@+id/StartImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/rcir"
+        android:visibility="visible" />
+
+
+</LinearLayout>
+

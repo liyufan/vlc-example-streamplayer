@@ -113,6 +113,9 @@ public class VlcVideoLibrary implements MediaPlayer.EventListener {
     }
   }
 
+  public int getWidth() {return surfaceView.getWidth();}
+  public int getHeight() {return surfaceView.getHeight();}
+
   public void stop() {
     if (player != null && player.isPlaying()) {
       player.stop();
